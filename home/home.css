@@ -1,0 +1,137 @@
+.row1 .head{
+  font-family: 'Hind', sans-serif;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px solid; */
+    margin-top: 20px;
+}
+
+.row2 .col1{
+    
+    /* border: 1px solid red; */
+    width: 35%;
+}
+.row2 .col1 #form{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    column-gap: 20px;
+}
+
+.row2 .col2{
+    /* border: 1px solid blue; */
+    width: 60%;
+}
+
+.row2 .col2 img{
+    width: 100%;
+}
+
+
+
+.items {
+  display: flex;
+  width: 100%;
+  /* overflow-x: scroll; */
+  padding: 1rem 0;
+  /* gap: 1rem; */
+  justify-content: center;
+}
+
+.items .item {
+  border: 1px solid black;
+  width: 70%;
+}
+
+.items .item img {
+  max-width: 100%;
+
+}
+
+.items .item .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.items .item .info {
+  padding: 1rem;
+}
+
+.items .item button {
+  width: 100%;
+  border-radius: none;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.items .item .colors {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.items .item .circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  margin: 0 5px;
+}
+
+.contain .head{
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.contain{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.contain form{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  
+}
+.contain form #login{
+  font-weight: bold;
+  padding: 5px 20px 5px 20px;
+  height: 40px;
+  width: 150px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.contain form #login:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.contain form #signup{
+  font-weight: bold;
+  padding: 5px 20px 5px 20px;
+  height: 40px;
+  width: 150px;
+  
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  cursor: pointer;
+}
+.contain form #signup:hover{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  
+}
+
+
+#error{
+  color: red;
+}

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: 'poppins', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+
+.part2{
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly; 
+}
+
+.part2 a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
